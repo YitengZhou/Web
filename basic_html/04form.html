@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表单</title>
+</head>
+<body>
+<form>
+    <input type="text"> <!--单行文本框-->
+    <br>
+    <input type="text" value="占位符"> <!--占位符-->
+    <br>
+    <input type="text" placeholder="不占文本框内的"> <!--不占文本框内的-->
+    <br>
+    <input type="text" placeholder="最大能输入的字符" maxlength="8"> <!--最大能输入的字符-->
+    <br>
+    <input type="text" placeholder="拓宽单行文本框" size="50"> <!--拓宽单行文本框-->
+    <br>
+    <input type="text" value="只读" readonly> <!--只读-->
+    <br>
+    <input type="password" placeholder="密码隐藏"> <!--密码隐藏-->
+    <br>
+    <textarea rows="20">aaaaaa</textarea>
+<!--button按钮-->
+    <br><br>
+    <input type="button" value="按钮">
+    <button>按钮</button> <!--与js合作并且作为绑定事件的-->
+    <input type="submit" value="提交"> <!--提交表单-->
+<!--range-->
+    <br><br>
+    <input type="range" min="-200" max="200" step="50" value="-100">
+<!--number-->
+    <br><br>
+    <input type="number" min="-100" max="200" value="0" step="10">
+<!--checkbox-->
+    <br><br>
+    <input type="checkbox">是否保存密码
+<!--radio-->
+    <br><br>
+    <input type="radio">选择
+    <br><br>
+    谁是最帅的程序员
+    <br>
+    <input type="radio" name="a" checked>zhouyiteng
+    <input type="radio" name="a">zhouyiteng
+    <input type="radio" name="a">zhouyiteng
+<!--select-->
+    <br><br><br><br><br><br>
+    你最喜欢吃的水果是什么
+    <select>
+        <option>苹果</option>
+        <option>香蕉</option>
+        <option>猕猴桃</option>
+    </select>
+    <br><br><br><br><br><br><br><br>
+    你最喜欢吃的水果是什么
+    <input type="text" list="1">
+    <datalist id="1">
+        <option>苹果</option>
+        <option>香蕉</option>
+        <option>猕猴桃</option>
+    </datalist>
+<!--email、tel、url-->
+    <br><br><br><br><br><br><br><br>
+    <input type="email">
+    <input type="tel">
+    <input type="url">
+    <br><br><br><br><br><br><br><br>
+<!--date-->
+    <input type="date"> <!--获取时间-->
+<!--color-->
+    <input type="color"> <!--获取颜色-->
+<!--<image>-->
+    <br><br><br><br><br><br><br><br>
+    <input type="image" src="tree.png" width="100px"> <!--获取图片-->
+    <input type="file" multiple>
+</form>
+</body>
+</html>
