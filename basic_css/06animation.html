@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建动画</title>
+    <style type="text/css">
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: #4980ff;
+        }
+        p:hover{
+            animation-duration: 500ms;
+            animation-delay: 200ms;
+            animation-name: zhou;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+        }
+        @keyframes zhou {
+            from{
+                width: 100px;
+                height: 100px;
+                background-color: #69ff1e;
+            }
+            50%{
+                width: 130px;
+                height: 130px;
+                background-color: #fff8f8;
+            }
+            75%{
+                width: 160px;
+                height: 160px;
+                background-color: #ea00ff;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: #ff1530;
+            }
+        }
+    </style>
+</head>
+<body>
+<p></p>
+</body>
+</html>
